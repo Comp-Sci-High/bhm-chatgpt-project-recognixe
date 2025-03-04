@@ -1,0 +1,54 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.navbar {
+    width: 100%;
+    background: #222;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: yellow;
+}
+
+.container {
+    margin-top: 70px;
+}
+
+.card {
+    background: #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 15px;
+    transition: transform 0.3s, background 0.3s, color 0.3s;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+    background: white;
+    color: black;
+    transform: scale(1.05);
+}
